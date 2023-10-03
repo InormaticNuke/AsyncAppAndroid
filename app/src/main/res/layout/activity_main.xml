@@ -16,12 +16,20 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <TextView
+            android:id="@+id/txtldng"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="Loading..."
             android:textSize="28dp"
             android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="329dp"
+            android:src="@drawable/bio"
+            android:layout_marginTop="16dp"
+            android:visibility="gone"/>
 
 
     </LinearLayout>
