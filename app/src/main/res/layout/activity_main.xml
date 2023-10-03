@@ -16,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <TextView
-            android:id="@+id/txtldng"
+            android:id="@+id/txtLdng"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -25,6 +25,7 @@
             android:textColor="@color/black"/>
 
         <ImageView
+            android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="329dp"
             android:src="@drawable/bio"
