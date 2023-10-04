@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
             } catch (InterruptedException e){
                 e.printStackTrace();
             }
-            return "Completed Process";
+            return "You died X_X";
         }
 
         @Override
