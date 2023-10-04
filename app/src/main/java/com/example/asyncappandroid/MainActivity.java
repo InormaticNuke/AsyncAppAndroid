@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
         protected String doInBackground(Void... voids){
             try {
-                Thread.sleep(5000);
+                Thread.sleep(10000);
             } catch (InterruptedException e){
                 e.printStackTrace();
             }
